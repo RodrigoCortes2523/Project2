@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rodrigo's Reviews</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="icon">
+          <h1 class="logo">Rodrigo's Reviews</h1>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="contactBody">
+        <div>
+          <figure>
+            <img src="images/horde.png" alt="" />
+            <figcaption>Horde Logo</figcaption>
+          </figure>
+        </div>
+        <div class="formDiv">
+          <form id="order" action="submit.html" novalidate="novalidate">
+            <table border="15">
+              <tr>
+                <th colspan="2" id="head">Please Fill Out Questionaire Form</th>
+              </tr>
+              <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" id="name" /></td>
+              </tr>
+              <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email" id="email" /></td>
+              </tr>
+              <tr>
+                <td>Age:</td>
+                <td><input type="text" name="age" id="age" /></td>
+              </tr>
+              <tr>
+                <td>Favorite Game:</td>
+                <td><input type="text" name="fGame" id="fGame" /></td>
+              </tr>
+              <tr>
+                <td>Receive news about a new review?</td>
+                <td>
+                  <input type="radio" name="recieveNews" checked="true" />
+                  <label for="upsGround">Yes</label>
+                  <input type="radio" name="recieveNews" />
+                  <label for="upsExpress">No</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="express">Give Donation?</label>
+                  <input type="checkbox" id="donation" />
+                </td>
+              </tr>
+              <tr>
+                <td>Credit Card Number:</td>
+                <td><input type="text" name="ccn" id="ccn" /></td>
+              </tr>
+              <tr>
+                <td>Amount to donate:</td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <label for="comments">Comments/Questions:</label>
+                  <textarea
+                    name="comment"
+                    id="comments"
+                    cols="50"
+                    rows="3"
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="submit" value="Submit Form" id="submitForm" />
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <div>
+          <figure>
+            <img src="images/alliance.png" alt="" />
+            <figcaption>Alliance Logo</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
